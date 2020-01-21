@@ -1,0 +1,232 @@
+.login-form, .register-form {
+    border-radius: 5px;
+}
+.img-user {
+    width: 50px;
+    height: 50px;
+}
+.img-user-sign {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.glavna-korpa {
+    font-size: 26px;
+}
+.user-icon {
+    font-size: 26px;
+    vertical-align: middle;
+}
+.navbar {
+    box-shadow: 0px -1px 10px #f0ad4e;
+}
+.nav-linija::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #17a2b8 ;
+    transition: width .5s;
+}
+.nav-linija:hover::after {
+    width: 100%;
+}
+.nav-linija:hover {
+    color: #17a2b8  !important;
+}
+.mojdiv{
+    height:34px;
+    position:relative;
+    text-align:center;
+    line-height:34px;
+}
+.mojdiv:after{
+    content:"";
+    position:absolute;
+    height:0;
+    width:0;
+    left:100%;
+    top:0;
+    border:17px solid transparent;
+    border-left: 17px solid #17a2b8;
+}
+.dodaj-korpa {
+    border-radius: 20px 20px !important;
+}
+.img-grupe {
+    width: 10rem;
+    height: 11rem;
+    padding: 10px;
+    border: 3px solid #17a2b8;
+    border-radius: 5px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .img-grupe {
+        width: 9rem !important;
+        height: 9rem !important;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+    .img-grupe {
+        width: 6rem !important;
+        height: 6rem !important;
+    }
+}  
+.contain {
+    object-fit: contain;
+}
+.form-artikal {
+    border-radius: 5px;
+}
+.img-izmena {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 5px !important;
+    object-fit: contain !important;
+    background-color: white !important;
+    cursor: zoom-in;
+}
+.img-trazeni-artikal {
+    height: 200px !important;
+    max-width: 100%;
+    object-fit: contain;
+}
+.artikal-stanje {
+    font-size: 10px !important;
+}
+.slajder-pocetna {
+    box-shadow: 0px 3px 10px #f0ad4e;
+}
+.tooltip-bottom {
+    position: relative;
+    display: inline-block;    
+}
+.tooltip-bottom .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #f8f9fa;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 102%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0.9;
+}
+.tooltip-bottom .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    opacity: 0.9;
+    border-color: transparent transparent black transparent;
+}
+  
+.tooltip-bottom:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*Definisanje Stila za vertikalni navbar na strani Administratora*/
+.sidenav {
+    width: 200px;
+    overflow-x: hidden;
+}
+.sidenav a {
+    text-decoration: none;
+}
+.sidenav a:hover {
+    text-decoration: none;
+}
+.sidenav .item {
+    font-size: 18px;
+}
+.sidenav .item:hover {
+    font-size: 18px;
+}
+.prikaz-deo {
+    margin-left: 200px;
+}
+.img-admin-panel {
+    width: 70px;
+    height: 70px;
+}
+/*Ikonica za poruke*/
+.fa-poruke {
+    font-size: 24px;
+}
+/*Prikaz korisnika na Admin strani*/
+.slika-korisnik {
+    height: 100%;
+}
+.korisnik-senka:hover,.artikal-senka:hover {
+    box-shadow: 0px 0px 7px #17a2b8;
+}
+.slajder-senka:hover {
+    box-shadow: 0px 0px 7px #17a2b8;
+}
+/*Profil korisnika*/
+.profil {
+    border-radius: 5px;
+}
+#slika-profil {
+    width: 200px;
+    height: 200px;    
+}
+.nav-tabovi .active {
+    background-color: #17a2b8 !important;
+}
+
+/*Slajder početna*/
+#nazad,#napred {
+    width: 50px !important;
+    height: 50px !important;
+    background-color: #868e96 !important;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.artikal-link {
+    text-decoration: none !important;
+}
+
+.dugme-korpa {
+    border-radius: 30px 30px !important;
+}
+
+
+/*Artikal*/
+.slika-artikla {
+    height: 400px;
+    object-fit: contain;
+    cursor: zoom-in;
+}
+.div-artikal {
+    position: relative;
+    width: 50px !important;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+}
+.div-artikal:after{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50%;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: solid 25px #17a2b8;
+    border-left: solid 25px transparent;
+    border-right: solid 25px transparent;
+}
+.korpa-slika {
+    width: 150px !important;   
+    height: 150px !important;
+    object-fit: contain;
+}
